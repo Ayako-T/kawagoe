@@ -1,0 +1,14 @@
+{
+"name": "output_dir",
+"description": "output_dir",
+"version": "2",
+"minzoom": "12",
+"maxzoom": "20",
+"center": "139.509716,34.048250,20",
+"bounds": "138.988554,26.636220,142.211422,35.854447",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe --no-tile-compression -z22 -Z12 -e output_dir -y kubun -l k_yzone -ai d_rzone.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"k_yzone\", \"description\": \"\", \"minzoom\": 12, \"maxzoom\": 20, \"fields\": {\"kubun\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"k_yzone\",\"count\": 1688,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"kubun\",\"count\": 1,\"type\": \"string\",\"values\": [\"特別警戒区域\"]}]}]}}"
+}
